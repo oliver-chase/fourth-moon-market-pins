@@ -1,0 +1,37 @@
+:root{--burgundy:#5C162A;--blue:#B7CCE5;--cream:#FFFDF8;--ink:#2B1A1F;--muted:#6B5A5F}
+*{box-sizing:border-box}
+body{margin:0;background:var(--cream);color:var(--ink);font:17px/1.65 "Nunito Sans",system-ui,sans-serif}
+.stripes{background:var(--burgundy) repeating-linear-gradient(90deg,var(--blue) 0 38px,transparent 38px 112px);padding:28px 16px}
+.label{background:var(--cream);border:1px solid var(--cream);outline:4px solid var(--burgundy);outline-offset:-14px;max-width:640px;margin:0 auto;padding:30px 28px;text-align:center}
+.brand{font:700 13px/1 "Nunito Sans",sans-serif;letter-spacing:.28em;text-transform:uppercase;color:var(--burgundy);text-decoration:none}
+.label h1{font:700 clamp(26px,6vw,40px)/1.2 "Libre Baskerville",Georgia,serif;color:var(--burgundy);margin:14px 0 10px}
+.label p{margin:0 auto;max-width:520px}
+.moons{display:flex;justify-content:center;gap:12px;margin-top:18px}
+.moons i{width:26px;height:26px;border-radius:50%;border:2px solid var(--burgundy);background:var(--cream);display:block}
+.moons i:nth-child(1){background:linear-gradient(90deg,var(--cream) 62%,var(--burgundy) 62%)}
+.moons i:nth-child(2){background:linear-gradient(90deg,var(--cream) 50%,var(--burgundy) 50%)}
+.moons i:nth-child(3){background:linear-gradient(90deg,var(--cream) 30%,var(--burgundy) 30%)}
+.moons i:nth-child(4){background:var(--burgundy)}
+nav{background:var(--blue);padding:14px 16px;text-align:center;font-size:15px}
+nav a{color:var(--burgundy);margin:4px 10px;display:inline-block;font-weight:700;text-decoration:none}
+nav a[aria-current]{text-decoration:underline}
+main{max-width:720px;margin:0 auto;padding:8px 16px 40px}
+section{padding:30px 0 8px;border-bottom:1px solid #E8DFE1}
+h2{font:700 25px/1.3 "Libre Baskerville",Georgia,serif;color:var(--burgundy);margin:0 0 12px}
+h3{font-size:17px;margin:22px 0 6px;color:var(--burgundy)}
+ul,ol{padding-left:22px;margin:8px 0 16px}li{margin:4px 0}
+.checklist li{list-style:none;margin-left:-22px}.checklist li::before{content:"\2610";color:var(--burgundy);margin-right:10px}
+.note{color:var(--muted);font-size:15px}
+.quote{background:#fff;border-left:4px solid var(--blue);padding:10px 14px;margin:8px 0}
+table{border-collapse:collapse;width:100%;margin:8px 0 16px;font-size:16px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid #E8DFE1;vertical-align:top}th{color:var(--burgundy)}
+.cards{display:grid;gap:14px;margin:24px 0}
+.cards a{display:block;background:#fff;border:2px solid var(--burgundy);border-radius:12px;padding:16px 18px;text-decoration:none;color:var(--ink)}
+.cards strong{display:block;font:700 19px "Libre Baskerville",Georgia,serif;color:var(--burgundy);margin-bottom:4px}
+.share{margin:36px 0 8px;padding:22px;background:var(--burgundy);color:var(--cream);border-radius:14px;text-align:center}
+.share h2{color:var(--cream);margin:0 0 8px;font-size:22px}
+.share p{margin:6px 0}
+.share a.btn{display:inline-block;margin-top:8px;padding:11px 20px;background:var(--cream);color:var(--burgundy);border-radius:999px;text-decoration:none;font-weight:700}
+.share a.alt{color:var(--blue);font-weight:700}
+footer{text-align:center;padding:24px 16px 48px;font-size:14px;color:var(--muted)}footer a{color:var(--burgundy);font-weight:700}
+@media print{.stripes,nav,.share,footer .nav{display:none}section{break-inside:avoid}}
