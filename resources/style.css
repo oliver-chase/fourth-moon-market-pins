@@ -34,4 +34,9 @@ th,td{text-align:left;padding:8px 10px;border-bottom:1px solid #E8DFE1;vertical-
 .share a.btn{display:inline-block;margin-top:8px;padding:11px 20px;background:var(--cream);color:var(--burgundy);border-radius:999px;text-decoration:none;font-weight:700}
 .share a.alt{color:var(--blue);font-weight:700}
 footer{text-align:center;padding:24px 16px 48px;font-size:14px;color:var(--muted)}footer a{color:var(--burgundy);font-weight:700}
+.crumbs{font-size:14px;color:var(--muted);padding:14px 0 0}.crumbs a{color:var(--burgundy)}
+.faq h3{margin:18px 0 4px}.faq p{margin:0 0 8px}
+.related ul{list-style:none;padding:0}.related li{margin:8px 0}.related a{color:var(--burgundy);font-weight:700}
+.hubgroup p{color:var(--muted);margin:0 0 6px}.hubgroup ul{list-style:none;padding:0}.hubgroup li{margin:10px 0}.hubgroup a{color:var(--burgundy);font-weight:700}
+.share a.btn+a.btn{margin-left:6px}
 @media print{.stripes,nav,.share,footer .nav{display:none}section{break-inside:avoid}}

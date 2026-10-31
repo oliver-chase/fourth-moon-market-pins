@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://oliver-chase.github.io/fourth-moon-market-pins/sitemap.xml
