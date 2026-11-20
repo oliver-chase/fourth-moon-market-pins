@@ -1,0 +1,50 @@
+{
+  "repoOwner": "oliver-chase",
+  "repoName": "fourth-moon-market",
+  "projectOwner": "oliver-chase",
+  "projectNumber": 8,
+  "projectId": "PVT_kwHOCyeGV84BkmgG",
+  "fields": {
+    "status": {
+      "id": "PVTSSF_lAHOCyeGV84BkmgGzhjWhow",
+      "options": {
+        "Backlog": "bb4eb890",
+        "Ready": "fd5cfdfd",
+        "In Progress": "ee170b07",
+        "QA": "feb46942",
+        "Complete": "4461b8ca"
+      }
+    },
+    "priority": {
+      "id": "PVTSSF_lAHOCyeGV84BkmgGzhjWhro",
+      "options": {
+        "P0": "79628723",
+        "P1": "0a877460",
+        "P2": "da944a9c"
+      }
+    },
+    "size": {
+      "id": "PVTSSF_lAHOCyeGV84BkmgGzhjWhrs",
+      "options": {
+        "XS": "6c6483d2",
+        "S": "f784b110",
+        "M": "7515a9f1",
+        "L": "817d0097",
+        "XL": "db339eb2"
+      }
+    },
+    "workType": {
+      "id": "PVTSSF_lAHOCyeGV84BkmgGzhoSGec",
+      "options": {
+        "Epic": "77b7090d",
+        "Story": "371afd28"
+      }
+    },
+    "area": {
+      "id": "PVTSSF_lAHOCyeGV84BkmgGzhourUo",
+      "options": {
+        "General": "f43cd1a0"
+      }
+    }
+  }
+}

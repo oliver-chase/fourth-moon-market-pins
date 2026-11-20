@@ -1,0 +1,20 @@
+{
+  "_comment": "The owner-identifier gate's per-repo lists: config files to read for account names, and local-data files allowed to hold an identifier, each with a reason.",
+  "configGlobs": [],
+  "localData": [
+    "guide/index.html",
+    "resources/index.html",
+    "resources/*/index.html",
+    "robots.txt",
+    "sitemap.xml",
+    "pins/queue-*.csv"
+  ],
+  "localDataReasons": {
+    "guide/index.html": "A public GitHub Pages site: its canonical, sitemap and image URLs sit under the owner's Pages domain, so each page names the account by necessity.",
+    "resources/index.html": "A public GitHub Pages site: its canonical, sitemap and image URLs sit under the owner's Pages domain, so each page names the account by necessity.",
+    "resources/*/index.html": "A public GitHub Pages site: its canonical, sitemap and image URLs sit under the owner's Pages domain, so each page names the account by necessity.",
+    "robots.txt": "A public GitHub Pages site: its canonical, sitemap and image URLs sit under the owner's Pages domain, so each page names the account by necessity.",
+    "sitemap.xml": "A public GitHub Pages site: its canonical, sitemap and image URLs sit under the owner's Pages domain, so each page names the account by necessity.",
+    "pins/queue-*.csv": "A Pinterest bulk sheet: each row needs the image's address on this Pages site."
+  }
+}
